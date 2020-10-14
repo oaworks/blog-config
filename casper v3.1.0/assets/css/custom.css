@@ -1,0 +1,14 @@
+.post-full-content table {
+  width: 100%;
+  font-size: 2rem;
+}
+
+.post-full-content table th {
+  line-height: 1.5;
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-card-excerpt {
+      color: var(--lightgrey);
+  }
+}
