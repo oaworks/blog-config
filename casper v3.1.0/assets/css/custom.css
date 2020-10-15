@@ -1,3 +1,29 @@
+dfn, em, i {
+  font-style: normal;
+  color: color-mod(var(--midgrey) l(+10%));
+}
+
+html, body,
+.post-card-excerpt,
+.post-full-custom-excerpt,
+.post-full-content,
+.post-full-content h1,
+.post-full-content h2,
+.post-full-content h3,
+.post-full-content h4,
+.post-full-content h5,
+.post-full-content h6,
+.post-full-content table,
+.post-full-content figcaption,
+.post-full-content .kg-bookmark-container,
+.subscribe-overlay-description {
+  font-family: 'Inter', sans-serif;
+}
+
+.post-card-byline-content {
+  margin-left: 0;
+}
+
 .post-full-content table {
   width: 100%;
   font-size: 2rem;
@@ -8,6 +34,11 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  dfn, em, i {
+  font-style: normal;
+  color: color: var(--lightgrey);
+}
+
   .post-card-excerpt {
       color: var(--lightgrey);
   }
