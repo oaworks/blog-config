@@ -4,6 +4,7 @@ collections:
   /:
     permalink: /{slug}/
     template: index
+    filter: 'tag:-hash-hide'
 
 taxonomies:
   tag: /{slug}/
