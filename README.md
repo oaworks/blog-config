@@ -1,3 +1,3 @@
-# Blog theme
+# Blog config
 
-Forked from https://github.com/TryGhost/Casper 
+Miscellaneous configuration files for our [Ghost blog](https://blog.oa.works/). 
